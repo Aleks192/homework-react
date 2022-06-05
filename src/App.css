@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80vmin;
+  border-radius: 50%;
   pointer-events: none;
 }
 
@@ -14,25 +15,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: goldenrod;
 }
 
 .App-link {
-  color: #61dafb;
+  color: goldenrod;
+  text-decoration: none;
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
